@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "piglinspears",
+  "version": "${version}",
+  "name": "Piglin Spears",
+  "description": "Give a zombified piglin the item in your main hand with Shift + right-click.",
+  "authors": ["popoliveroliver-create"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.popoliveroliver.piglinspears.PiglinSpearMod"],
+    "client": ["dev.popoliveroliver.piglinspears.PiglinSpearClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
